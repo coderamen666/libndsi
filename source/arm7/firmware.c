@@ -21,11 +21,11 @@
       distribution.
 
 ---------------------------------------------------------------------------------*/
-#include <nds/arm7/serial.h>
-#include <nds/interrupts.h>
-#include <nds/system.h>
-#include <nds/fifocommon.h>
-#include <nds/fifomessages.h>
+#include <ndsi/arm7/serial.h>
+#include <ndsi/interrupts.h>
+#include <ndsi/system.h>
+#include <ndsi/fifocommon.h>
+#include <ndsi/fifomessages.h>
 #include <string.h>
 
 static u8 readwriteSPI(u8 data) {

@@ -26,10 +26,10 @@
 
 
 ---------------------------------------------------------------------------------*/
-#include <nds/timers.h>
-#include <nds/interrupts.h>
+#include <ndsi/timers.h>
+#include <ndsi/interrupts.h>
 
-#include <nds/arm9/sassert.h>
+#include <ndsi/arm9/sassert.h>
 //---------------------------------------------------------------------------------
 void timerStart(int timer, ClockDivider divider, u16 ticks, VoidFn callback){
 //---------------------------------------------------------------------------------

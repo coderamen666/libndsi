@@ -28,10 +28,10 @@
 
 
 ---------------------------------------------------------------------------------*/
-#include <nds/ndstypes.h>
-#include <nds/arm9/image.h>
-#include <nds/arm9/sassert.h>
-#include <nds/dma.h>
+#include <ndsi/ndstypes.h>
+#include <ndsi/arm9/image.h>
+#include <ndsi/arm9/sassert.h>
+#include <ndsi/dma.h>
 
 #include <string.h>
 #include <malloc.h>

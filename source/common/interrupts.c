@@ -22,11 +22,11 @@
 
 ---------------------------------------------------------------------------------*/
 
-#include <nds/interrupts.h>
-#include <nds/system.h>
-#include <nds/ipc.h>
+#include <ndsi/interrupts.h>
+#include <ndsi/system.h>
+#include <ndsi/ipc.h>
 #ifdef ARM7
-#include <nds/arm7/i2c.h>
+#include <ndsi/arm7/i2c.h>
 #endif
 
 void IntrMain();	// Prototype for assembly interrupt dispatcher

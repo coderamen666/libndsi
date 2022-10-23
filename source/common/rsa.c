@@ -22,8 +22,8 @@
 
 ---------------------------------------------------------------------------------*/
 
-#include <nds/rsa.h>
-#include <nds/system.h>
+#include <ndsi/rsa.h>
+#include <ndsi/system.h>
 
 int swiRSAInitHeapTWL(swiRSAHeapContext_t *ctx, void *heapStart, size_t heapSize);
 int swiRSADecryptRAWTWL(swiRSAHeapContext_t *ctx, swiRSAbuffers_t *rsabuffers, size_t len);

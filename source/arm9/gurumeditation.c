@@ -22,13 +22,13 @@
 
 ---------------------------------------------------------------------------------*/
 
-#include <nds/ndstypes.h>
-#include <nds/memory.h>
+#include <ndsi/ndstypes.h>
+#include <ndsi/memory.h>
 
-#include <nds/arm9/video.h>
-#include <nds/arm9/console.h>
-#include <nds/arm9/exceptions.h>
-#include <nds/arm9/background.h>
+#include <ndsi/arm9/video.h>
+#include <ndsi/arm9/console.h>
+#include <ndsi/arm9/exceptions.h>
+#include <ndsi/arm9/background.h>
 
 #include <stdio.h>
 

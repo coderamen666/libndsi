@@ -21,8 +21,8 @@
      distribution.
 
 ---------------------------------------------------------------------------------*/
-#include <nds/ndstypes.h>
-#include <nds/system.h>
+#include <ndsi/ndstypes.h>
+#include <ndsi/system.h>
 #include <unistd.h>    // for sbrk()
 
 extern u8 *fake_heap_end;   // current heap start

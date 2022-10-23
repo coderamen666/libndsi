@@ -23,11 +23,11 @@
      distribution.
 
 ---------------------------------------------------------------------------------*/
-#include <nds/interrupts.h>
-#include <nds/fifocommon.h>
-#include <nds/timers.h>
-#include <nds/arm7/audio.h>
-#include <nds/arm7/codec.h>
+#include <ndsi/interrupts.h>
+#include <ndsi/fifocommon.h>
+#include <ndsi/timers.h>
+#include <ndsi/arm7/audio.h>
+#include <ndsi/arm7/codec.h>
 
 //---------------------------------------------------------------------------------
 void micSetAmp_TWL(u8 control, u8 gain) {

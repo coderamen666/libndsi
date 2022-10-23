@@ -1,9 +1,9 @@
-#include <nds/system.h>
-#include <nds/bios.h>
-#include <nds/arm7/sdmmc.h>
-#include <nds/interrupts.h>
-#include <nds/fifocommon.h>
-#include <nds/fifomessages.h>
+#include <ndsi/system.h>
+#include <ndsi/bios.h>
+#include <ndsi/arm7/sdmmc.h>
+#include <ndsi/interrupts.h>
+#include <ndsi/fifocommon.h>
+#include <ndsi/fifomessages.h>
 
 #include <stddef.h>
 

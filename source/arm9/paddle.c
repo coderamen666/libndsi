@@ -1,6 +1,6 @@
-#include <nds/memory.h>
-#include <nds/system.h>
-#include <nds/arm9/paddle.h>
+#include <ndsi/memory.h>
+#include <ndsi/system.h>
+#include <ndsi/arm9/paddle.h>
 
 #define EXMEMCNT_MASK_SLOT2_ARM7 (1<<7)
 #define EXMEMCNT_MASK_SLOT2_SRAM_TIME (3)

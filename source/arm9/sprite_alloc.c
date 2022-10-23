@@ -1,10 +1,10 @@
-#include <nds/arm9/sprite.h>
+#include <ndsi/arm9/sprite.h>
 
-#include <nds/arm9/input.h>
-#include <nds/arm9/console.h>
-#include <nds/arm9/cache.h>
-#include <nds/dma.h>
-#include <nds/bios.h>
+#include <ndsi/arm9/input.h>
+#include <ndsi/arm9/console.h>
+#include <ndsi/arm9/cache.h>
+#include <ndsi/dma.h>
+#include <ndsi/bios.h>
 
 #include <stdlib.h>
 

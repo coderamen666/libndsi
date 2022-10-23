@@ -23,9 +23,9 @@
 
 ---------------------------------------------------------------------------------*/
 
-#include <nds/arm7/serial.h>
-#include <nds/interrupts.h>
-#include <nds/system.h>
+#include <ndsi/arm7/serial.h>
+#include <ndsi/interrupts.h>
+#include <ndsi/system.h>
 
 //---------------------------------------------------------------------------------
 int writePowerManagement(int reg, int command) {

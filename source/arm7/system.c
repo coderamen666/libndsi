@@ -23,15 +23,15 @@
       distribution.
 
 ---------------------------------------------------------------------------------*/
-#include <nds/ndstypes.h>
-#include <nds/system.h>
-#include <nds/fifocommon.h>
-#include <nds/fifomessages.h>
-#include <nds/interrupts.h>
-#include <nds/bios.h>
-#include <nds/arm7/clock.h>
-#include <nds/arm7/sdmmc.h>
-#include <nds/arm7/i2c.h>
+#include <ndsi/ndstypes.h>
+#include <ndsi/system.h>
+#include <ndsi/fifocommon.h>
+#include <ndsi/fifomessages.h>
+#include <ndsi/interrupts.h>
+#include <ndsi/bios.h>
+#include <ndsi/arm7/clock.h>
+#include <ndsi/arm7/sdmmc.h>
+#include <ndsi/arm7/i2c.h>
 
 bool sleepIsEnabled = true;
 bool __dsimode = false; // set in crt0

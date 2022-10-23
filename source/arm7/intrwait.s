@@ -21,7 +21,7 @@
      distribution.
 
 ---------------------------------------------------------------------------------*/
-#include <nds/asminc.h>
+#include <ndsi/asminc.h>
 
 	.arm
 	.cpu arm7tdmi

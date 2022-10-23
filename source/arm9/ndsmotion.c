@@ -27,11 +27,11 @@
 
 ---------------------------------------------------------------------------------*/
 
-#include <nds/card.h>
-#include <nds/system.h>
-#include <nds/memory.h>
-#include <nds/bios.h>
-#include <nds/arm9/ndsmotion.h>
+#include <ndsi/card.h>
+#include <ndsi/system.h>
+#include <ndsi/memory.h>
+#include <ndsi/bios.h>
+#include <ndsi/arm9/ndsmotion.h>
 
 #define WAIT_CYCLES 185
 

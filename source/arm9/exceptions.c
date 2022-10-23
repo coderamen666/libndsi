@@ -22,8 +22,8 @@
 
 ---------------------------------------------------------------------------------*/
 
-#include <nds/ndstypes.h>
-#include <nds/arm9/exceptions.h>
+#include <ndsi/ndstypes.h>
+#include <ndsi/arm9/exceptions.h>
 
 //---------------------------------------------------------------------------------
 void setExceptionHandler(VoidFn handler) {

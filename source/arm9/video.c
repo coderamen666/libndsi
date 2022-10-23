@@ -24,9 +24,9 @@
 	
 ---------------------------------------------------------------------------------*/
 
-#include <nds/ndstypes.h>
-#include <nds/arm9/video.h>
-#include <nds/dma.h>
+#include <ndsi/ndstypes.h>
+#include <ndsi/arm9/video.h>
+#include <ndsi/dma.h>
 
 
 //---------------------------------------------------------------------------------

@@ -23,9 +23,9 @@
       distribution.
 
 ---------------------------------------------------------------------------------*/
-#include <nds/ndstypes.h>
-#include <nds/system.h>
-#include <nds/arm7/i2c.h>
+#include <ndsi/ndstypes.h>
+#include <ndsi/system.h>
+#include <ndsi/arm7/i2c.h>
 
 //---------------------------------------------------------------------------------
 void systemShutDown() {

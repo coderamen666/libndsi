@@ -24,9 +24,9 @@
 
 
 ---------------------------------------------------------------------------------*/
-#include <nds/ndstypes.h>
-#include <nds/ipc.h>
-#include <nds/system.h>
+#include <ndsi/ndstypes.h>
+#include <ndsi/ipc.h>
+#include <ndsi/system.h>
 
 #ifdef ARM7
 

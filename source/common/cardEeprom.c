@@ -24,9 +24,9 @@
 
 
 ---------------------------------------------------------------------------------*/
-#include "nds/card.h"
-#include "nds/dma.h"
-#include "nds/memory.h"
+#include "ndsi/card.h"
+#include "ndsi/dma.h"
+#include "ndsi/memory.h"
 
 //---------------------------------------------------------------------------------
 u8 cardEepromCommand(u8 command) {

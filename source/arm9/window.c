@@ -1,4 +1,4 @@
-#include <nds/arm9/window.h>
+#include <ndsi/arm9/window.h>
 
 
 //set window dimensions

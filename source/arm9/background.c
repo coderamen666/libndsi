@@ -27,8 +27,8 @@ distribution.
 
 ---------------------------------------------------------------------------------*/
 
-#include <nds/arm9/background.h>
-#include <nds/arm9/trig_lut.h>
+#include <ndsi/arm9/background.h>
+#include <ndsi/arm9/trig_lut.h>
 
 #include <string.h>
 

@@ -29,13 +29,13 @@ distribution.
 
 ---------------------------------------------------------------------------------*/
 
-#include <nds/memory.h>
-#include <nds/bios.h>
-#include <nds/system.h>
-#include <nds/fifocommon.h>
-#include <nds/interrupts.h>
-#include <nds/fifomessages.h>
-#include <libnds_internal.h>
+#include <ndsi/memory.h>
+#include <ndsi/bios.h>
+#include <ndsi/system.h>
+#include <ndsi/fifocommon.h>
+#include <ndsi/interrupts.h>
+#include <ndsi/fifomessages.h>
+#include <libndsi_internal.h>
 
 //todo document
 //

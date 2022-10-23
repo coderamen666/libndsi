@@ -27,15 +27,15 @@
 
 ---------------------------------------------------------------------------------*/
 
-#include <nds/ndstypes.h>
-#include <nds/memory.h>
-#include <nds/bios.h>
-#include <nds/system.h>
-#include <nds/arm9/math.h>
-#include <nds/arm9/video.h>
-#include <nds/arm9/videoGL.h>
-#include <nds/arm9/trig_lut.h>
-#include <nds/arm9/sassert.h>
+#include <ndsi/ndstypes.h>
+#include <ndsi/memory.h>
+#include <ndsi/bios.h>
+#include <ndsi/system.h>
+#include <ndsi/arm9/math.h>
+#include <ndsi/arm9/video.h>
+#include <ndsi/arm9/videoGL.h>
+#include <ndsi/arm9/trig_lut.h>
+#include <ndsi/arm9/sassert.h>
 
 // this is the actual data of the globals for videoGL
 //   Please use the glGlob pointer to access this data since that makes it easier to move stuff in/out of the header.

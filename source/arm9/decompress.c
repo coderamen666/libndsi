@@ -25,9 +25,9 @@ distribution.
 
 ---------------------------------------------------------------------------------*/
 
-#include <nds/arm9/decompress.h>
-#include <nds/bios.h>
-#include <nds/arm9/sassert.h>
+#include <ndsi/arm9/decompress.h>
+#include <ndsi/bios.h>
+#include <ndsi/arm9/sassert.h>
 
 static int getHeader(uint8 *source, uint16 *dest, uint32 arg) {
 	return *(uint32*)source;

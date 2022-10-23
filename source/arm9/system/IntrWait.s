@@ -21,7 +21,7 @@
      distribution.
 
 ---------------------------------------------------------------------------------*/
-#include <nds/asminc.h>
+#include <ndsi/asminc.h>
 
 	.arch	armv5te
 	.cpu	arm946e-s

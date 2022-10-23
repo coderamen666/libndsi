@@ -24,10 +24,10 @@
 
 
 ---------------------------------------------------------------------------------*/
-#include <nds/fifocommon.h>
-#include <nds/fifomessages.h>
-#include <nds/system.h>
-#include <nds/arm9/cache.h>
+#include <ndsi/fifocommon.h>
+#include <ndsi/fifomessages.h>
+#include <ndsi/system.h>
+#include <ndsi/arm9/cache.h>
 
 //---------------------------------------------------------------------------------
 void readFirmware(u32 address, void *buffer, u32 length) {

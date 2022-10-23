@@ -24,10 +24,10 @@
 
 
 ---------------------------------------------------------------------------------*/
-#include "nds/card.h"
-#include "nds/dma.h"
-#include "nds/memory.h"
-#include "nds/bios.h"
+#include "ndsi/card.h"
+#include "ndsi/dma.h"
+#include "ndsi/memory.h"
+#include "ndsi/bios.h"
 
 #include <stdio.h>
 

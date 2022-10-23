@@ -1,11 +1,11 @@
-#include <nds/arm7/input.h>
-#include <nds/arm7/touch.h>
-#include <nds/system.h>
-#include <nds/touch.h>
-#include <nds/fifocommon.h>
-#include <nds/fifomessages.h>
-#include <nds/ipc.h>
-#include <nds/ndstypes.h>
+#include <ndsi/arm7/input.h>
+#include <ndsi/arm7/touch.h>
+#include <ndsi/system.h>
+#include <ndsi/touch.h>
+#include <ndsi/fifocommon.h>
+#include <ndsi/fifomessages.h>
+#include <ndsi/ipc.h>
+#include <ndsi/ndstypes.h>
 
 enum{
 	KEY_TOUCH = (1<<6),

@@ -25,24 +25,24 @@ must not be misrepresented as being the original software.
 distribution.
 
 ---------------------------------------------------------------------------------*/
-#include <nds/ndstypes.h>
-#include <nds/memory.h>
-#include <nds/timers.h>
-#include <nds/dma.h>
-#include <nds/ipc.h>
-#include <nds/arm9/video.h>
-#include <nds/arm9/sprite.h>
-#include <nds/arm9/input.h>
-#include <nds/system.h>
-#include <nds/interrupts.h>
-#include <nds/fifocommon.h>
+#include <ndsi/ndstypes.h>
+#include <ndsi/memory.h>
+#include <ndsi/timers.h>
+#include <ndsi/dma.h>
+#include <ndsi/ipc.h>
+#include <ndsi/arm9/video.h>
+#include <ndsi/arm9/sprite.h>
+#include <ndsi/arm9/input.h>
+#include <ndsi/system.h>
+#include <ndsi/interrupts.h>
+#include <ndsi/fifocommon.h>
 #include <time.h>
-#include <libnds_internal.h>
+#include <libndsi_internal.h>
 
 #include <sys/iosupport.h>
 #include <sys/time.h>
 
-void __libnds_exit(int rc);
+void __libndsi_exit(int rc);
 bool __dsimode; // set in crt0
 
 time_t *punixTime;
@@ -67,7 +67,7 @@ int __SYSCALL(gettod_r)(struct _reent *ptr, struct timeval *tp, struct timezone 
 //---------------------------------------------------------------------------------
 void __SYSCALL(exit)(int rc) {
 //---------------------------------------------------------------------------------
-	__libnds_exit(rc);
+	__libndsi_exit(rc);
 }
 
 

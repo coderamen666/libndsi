@@ -26,7 +26,7 @@
 	distribution.
 
 ---------------------------------------------------------------------------------*/
-#include <nds/arm9/console.h>
+#include <ndsi/arm9/console.h>
 
 #include <stdio.h>
 #include <stdarg.h>

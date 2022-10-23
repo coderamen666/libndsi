@@ -1,5 +1,5 @@
-#include <nds/asminc.h>
-#include <nds/arm9/cache_asm.h>
+#include <ndsi/asminc.h>
+#include <ndsi/arm9/cache_asm.h>
 
 @---------------------------------------------------------------------------------
 @ DS processor selection
@@ -11,7 +11,7 @@
 	.arm
 
 @---------------------------------------------------------------------------------
-BEGIN_ASM_FUNC __libnds_mpu_setup
+BEGIN_ASM_FUNC __libndsi_mpu_setup
 @---------------------------------------------------------------------------------
 @ turn the power on for M3
 @---------------------------------------------------------------------------------

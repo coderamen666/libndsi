@@ -1,6 +1,6 @@
-#include <nds/memory.h>
-#include <nds/system.h>
-#include <nds/arm9/piano.h>
+#include <ndsi/memory.h>
+#include <ndsi/system.h>
+#include <ndsi/arm9/piano.h>
 
 static u16 piano_keys = 0;
 static u16 piano_keys_old = 0;

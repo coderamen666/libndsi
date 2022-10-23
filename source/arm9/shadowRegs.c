@@ -25,7 +25,7 @@ must not be misrepresented as being the original software.
 distribution.
 
 ---------------------------------------------------------------------------------*/
-#include <nds/ndstypes.h>
+#include <ndsi/ndstypes.h>
 
 u16 mosaicShadow = 0;
 u16 mosaicShadowSub =0;

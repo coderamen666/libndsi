@@ -1,9 +1,9 @@
-#include <nds/arm9/sprite.h>
+#include <ndsi/arm9/sprite.h>
 
-#include <nds/arm9/trig_lut.h>
-#include <nds/arm9/cache.h>
-#include <nds/dma.h>
-#include <nds/interrupts.h>
+#include <ndsi/arm9/trig_lut.h>
+#include <ndsi/arm9/cache.h>
+#include <ndsi/dma.h>
+#include <ndsi/interrupts.h>
 
 #include <stdio.h>	// for NULL
 

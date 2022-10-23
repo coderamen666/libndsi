@@ -24,12 +24,12 @@
 
 ---------------------------------------------------------------------------------*/
 
-#include "nds/bios.h"
-#include "nds/arm7/clock.h"
-#include "nds/interrupts.h"
-#include "nds/ipc.h"
-#include "nds/system.h"
-#include "libnds_internal.h"
+#include "ndsi/bios.h"
+#include "ndsi/arm7/clock.h"
+#include "ndsi/interrupts.h"
+#include "ndsi/ipc.h"
+#include "ndsi/system.h"
+#include "libndsi_internal.h"
 
 #include <time.h>
 

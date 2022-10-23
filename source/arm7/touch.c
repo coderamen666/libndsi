@@ -26,12 +26,12 @@
 
 ---------------------------------------------------------------------------------*/
 
-#include <nds/ndstypes.h>
-#include <nds/system.h>
-#include <nds/arm7/codec.h>
-#include <nds/arm7/touch.h>
-#include <nds/arm7/input.h>
-#include <nds/interrupts.h>
+#include <ndsi/ndstypes.h>
+#include <ndsi/system.h>
+#include <ndsi/arm7/codec.h>
+#include <ndsi/arm7/touch.h>
+#include <ndsi/arm7/input.h>
+#include <ndsi/interrupts.h>
 
 #include <stdlib.h>
 

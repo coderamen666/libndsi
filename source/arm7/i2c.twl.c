@@ -24,8 +24,8 @@
 
 ---------------------------------------------------------------------------------*/
 
-#include <nds/arm7/i2c.h>
-#include <nds/bios.h>
+#include <ndsi/arm7/i2c.h>
+#include <ndsi/bios.h>
 
 static u32 i2cCurrentDelay = 0;
 

@@ -23,11 +23,11 @@
 
 ---------------------------------------------------------------------------------*/
 
-#include <nds/arm7/audio.h>
-#include <nds/ipc.h>
-#include <nds/fifocommon.h>
-#include <nds/fifomessages.h>
-#include <nds/system.h>
+#include <ndsi/arm7/audio.h>
+#include <ndsi/ipc.h>
+#include <ndsi/fifocommon.h>
+#include <ndsi/fifomessages.h>
+#include <ndsi/system.h>
 
 //---------------------------------------------------------------------------------
 int getFreeChannel(void) {

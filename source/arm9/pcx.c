@@ -22,9 +22,9 @@
 		distribution.
 
 ---------------------------------------------------------------------------------*/
-#include <nds/ndstypes.h>
-#include <nds/arm9/video.h>
-#include <nds/arm9/image.h>
+#include <ndsi/ndstypes.h>
+#include <ndsi/arm9/video.h>
+#include <ndsi/arm9/image.h>
 #include <malloc.h>
 
 //---------------------------------------------------------------------------------

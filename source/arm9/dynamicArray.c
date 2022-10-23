@@ -5,7 +5,7 @@
 */
 
 
-#include <nds/arm9/dynamicArray.h>
+#include <ndsi/arm9/dynamicArray.h>
 
 
 void* DynamicArrayInit(DynamicArray* v, unsigned int initialSize)

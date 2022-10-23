@@ -25,10 +25,10 @@
 
 
 ---------------------------------------------------------------------------------*/
-#include <nds/arm9/sound.h>
-#include <nds/fifocommon.h>
-#include <nds/fifomessages.h>
-#include <nds/arm9/cache.h>
+#include <ndsi/arm9/sound.h>
+#include <ndsi/fifocommon.h>
+#include <ndsi/fifomessages.h>
+#include <ndsi/arm9/cache.h>
 #include <string.h>
 
 

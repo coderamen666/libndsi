@@ -24,12 +24,12 @@ distribution.
 
 ---------------------------------------------------------------------------------*/
 
-#include <nds/ndstypes.h>
-#include <nds/memory.h>
-#include <nds/arm9/console.h>
-#include <nds/arm9/video.h>
-#include <nds/arm9/background.h>
-#include <nds/debug.h>
+#include <ndsi/ndstypes.h>
+#include <ndsi/memory.h>
+#include <ndsi/arm9/console.h>
+#include <ndsi/arm9/video.h>
+#include <ndsi/arm9/background.h>
+#include <ndsi/debug.h>
 #include <default_font_bin.h>
 
 #include <stdio.h>

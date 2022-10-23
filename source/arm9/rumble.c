@@ -22,9 +22,9 @@
      distribution.
 	
 ---------------------------------------------------------------------------------*/
-#include <nds/ndstypes.h>
-#include <nds/memory.h>
-#include <nds/arm9/rumble.h>
+#include <ndsi/ndstypes.h>
+#include <ndsi/memory.h>
+#include <ndsi/arm9/rumble.h>
 
 static RUMBLE_TYPE rumbleType;
 

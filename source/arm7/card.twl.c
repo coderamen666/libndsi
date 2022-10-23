@@ -22,9 +22,9 @@
 
 
 ---------------------------------------------------------------------------------*/
-#include <nds/system.h>
-#include <nds/interrupts.h>
-#include <nds/bios.h>
+#include <ndsi/system.h>
+#include <ndsi/interrupts.h>
+#include <ndsi/bios.h>
 
 #define BASE_DELAY (100)
 

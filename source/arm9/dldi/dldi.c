@@ -28,9 +28,9 @@
  EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#include <nds/arm9/dldi.h>
-#include <nds/memory.h>
-#include <nds/system.h>
+#include <ndsi/arm9/dldi.h>
+#include <ndsi/memory.h>
+#include <ndsi/system.h>
 
 #include <string.h>
 #include <malloc.h>

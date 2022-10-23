@@ -1,6 +1,6 @@
-#include <nds/ndstypes.h>
-#include <nds/system.h>
-#include <nds/bios.h>
+#include <ndsi/ndstypes.h>
+#include <ndsi/system.h>
+#include <ndsi/bios.h>
 
 int swiDecompressLZSSVram(void * source, void * destination, uint32 toGetSize, TDecompressionStream * stream) {
 

@@ -28,12 +28,12 @@ distribution.
 
 #include <sys/iosupport.h>
 #include "keyboardGfx.h"
-#include <nds/ndstypes.h>
-#include <nds/interrupts.h>
-#include <nds/arm9/keyboard.h>
-#include <nds/arm9/input.h>
-#include <nds/arm9/decompress.h>
-#include <nds/arm9/background.h>
+#include <ndsi/ndstypes.h>
+#include <ndsi/interrupts.h>
+#include <ndsi/arm9/keyboard.h>
+#include <ndsi/arm9/input.h>
+#include <ndsi/arm9/decompress.h>
+#include <ndsi/arm9/background.h>
 #include <string.h>
 #include <stdio.h>
 

@@ -1,8 +1,8 @@
-#include <nds/fifocommon.h>
-#include <nds/ipc.h>
-#include <nds/interrupts.h>
-#include <nds/bios.h>
-#include <nds/system.h>
+#include <ndsi/fifocommon.h>
+#include <ndsi/ipc.h>
+#include <ndsi/interrupts.h>
+#include <ndsi/bios.h>
+#include <ndsi/system.h>
 
 #include <string.h>
 

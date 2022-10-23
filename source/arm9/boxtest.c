@@ -28,9 +28,9 @@
 
 ---------------------------------------------------------------------------------*/
 
-#include <nds/arm9/video.h>
-#include <nds/arm9/videoGL.h>
-#include <nds/arm9/boxtest.h>
+#include <ndsi/arm9/video.h>
+#include <ndsi/arm9/videoGL.h>
+#include <ndsi/arm9/boxtest.h>
 
 //---------------------------------------------------------------------------------
 void BoxTest_Asynch(v16 x, v16 y, v16 z, v16 width, v16 height, v16 depth) {
