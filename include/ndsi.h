@@ -247,7 +247,7 @@ extern "C" {
 #include "ndsi/touch.h"
 #include "ndsi/input.h"
 #include "ndsi/sha1.h"
-
+#include "ndsi/panic.h"
 
 //---------------------------------------------------------------------------------
 #ifdef ARM9
